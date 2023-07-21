@@ -2,11 +2,15 @@ import { Doctor } from "./model"
 import { Request,Response } from "express"
 import { DoctorService } from "./service"
 import logger from "../../../utils/logger"
+import { CreationError, DeleteError, UpdateError, RecordNotFoundError } from "../../../utils/Errors"
 
 
 export interface DoctorController{
     getAllDoctors(req: Request, res: Response): void
     createDoctor(req: Request, res: Response): void
+    getDoctorById(req: Request, res: Response): void
+    updateDoctor(req: Request, res: Response): void
+    deleteDoctor(req: Request, res: Response): void
 }
 
 export class DoctorControllerImpl implements DoctorController{
@@ -15,20 +19,91 @@ export class DoctorControllerImpl implements DoctorController{
     constructor (doctorService: DoctorService){
         this.doctorService= doctorService
     }    
-    public getAllDoctors(req: Request, res: Response):void{
-        const doctors : Doctor[] = this.doctorService.getAllDoctors()
-        res.json(doctors)
+    public async getAllDoctors(req: Request, res: Response):Promise<void>{
+        try{
+            const doctors = await this.doctorService.getAllDoctors()
+            res.status(200).json(doctors)
+        }
+        catch (error) {
+            // logger.error(error)
+            res.status(400).json({message: "Error getting all doctors"})
+        }
     }
     public createDoctor(req: Request, res: Response): void {
         const doctorReq = req.body
+        this.doctorService.createDoctor(doctorReq).then(
+        (doctor) =>{
+            res.status(201).json(doctor)
+        },
+        (error) =>{
+            // logger.error(error)
+            if (error instanceof CreationError){
+                res.status(400).json({
+                    error_name: error.name,
+                    message: "Error"
+                })
+            } else {
+                res.status(400).json({
+                    message: "Internal Server Error"
+                })
+            }
+        })
+    }
+    public async getDoctorById(req: Request, res: Response): Promise<void> {
         try{
-            this.doctorService.createDoctor(doctorReq).then((doctor) =>{
-                res.json(doctor)
-            })
+            const id = parseInt(req.params.id)
+            const doctor = await this.doctorService.getDoctorById(id)
+            if ( doctor ) {
+                res.status(200).json(doctor)
+            } else {
+                throw new RecordNotFoundError()
+            }
+        } catch (error) {
+            // logger.error(error)
+            if (error instanceof RecordNotFoundError){
+                res.status(400).json({error: error.message})
+            } else {
+                res.status(400).json({error: 'Failed to retrieve doctor'})
+            }
         }
-        catch (error) {
+    }
+    public async updateDoctor(req: Request, res: Response): Promise<void> {
+        try{
+            const id = parseInt(req.params.id)
+            const doctorReq = req.body
+            const doctor = await this.doctorService.updateDoctor(id,doctorReq)
+            if ( doctor ) {
+                res.status(200).json(doctor)
+            } else {
+                throw new UpdateError('Doctor')
+            }
+        } catch (error) {
             logger.error(error)
-            res.status(400).json({message:error})
+            if (error instanceof RecordNotFoundError){
+                res.status(400).json({error: error.message})
+            } else if (error instanceof UpdateError){
+                res.status(400).json({error: error.message})
+            }
+            else {
+                res.status(400).json({error: 'Failed to update doctor'})
+            }
+        }
+    }
+    public async deleteDoctor(req: Request, res: Response): Promise<void> {
+        try{
+            const id = parseInt(req.params.id)
+            await this.doctorService.deleteDoctor(id)
+            res.status(200).json({message: "Doctor was deleted"})
+        } catch (error) {
+            logger.error(error)
+            if (error instanceof RecordNotFoundError){
+                res.status(400).json({error: error.message})
+            } else if (error instanceof DeleteError){
+                res.status(400).json({error: error.message})
+            }
+            else {
+                res.status(400).json({error: 'Failed to delete doctor'})
+            }
         }
     }
 }

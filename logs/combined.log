@@ -1,0 +1,278 @@
+2023-07-14T22:50:37.528Z-error: Database error
+2023-07-14T22:51:11.446Z-error: Database error
+2023-07-14T22:58:57.564Z-error: Internal Server Error
+2023-07-14T23:00:34.580Z-error: Internal Server Error
+2023-07-15T18:59:10.076Z-error: Internal Server error
+2023-07-15T19:29:44.965Z-error: Internal Server error
+2023-07-15T19:42:55.202Z-error: Internal Server error
+2023-07-15T20:24:00.685Z-error: Internal Server error
+2023-07-15T20:25:14.144Z-error: Internal Server error
+2023-07-15T20:27:45.364Z-error: Internal Server error
+2023-07-15T20:33:36.715Z-error: Internal Server error
+2023-07-15T20:47:24.268Z-error: Internal Server error
+2023-07-15T20:50:25.297Z-error: Internal Server error
+2023-07-15T21:11:19.319Z-error: Internal Server error
+2023-07-16T00:25:18.237Z-error: Internal Server error
+2023-07-16T00:26:44.331Z-error: Internal Server error
+2023-07-16T00:30:13.966Z-error: Internal Server error
+2023-07-16T00:34:55.514Z-error: Internal Server error
+2023-07-16T00:37:38.177Z-error: Internal Server error
+2023-07-16T00:38:22.604Z-error: Internal Server error
+2023-07-16T00:40:30.136Z-error: Internal Server error
+2023-07-16T00:40:30.151Z-error: Internal Server Error
+2023-07-16T00:51:15.247Z-error: Internal Server error
+2023-07-16T00:51:15.273Z-error: Internal Server Error
+2023-07-16T00:53:46.269Z-error: Internal Server error
+2023-07-16T00:53:46.288Z-error: Internal Server Error
+2023-07-16T14:47:18.340Z-error: Internal Server error
+2023-07-16T14:47:18.358Z-error: Internal Server Error
+2023-07-16T14:58:00.976Z-error: Internal Server error
+2023-07-16T14:58:00.993Z-error: Internal Server Error
+2023-07-16T14:58:00.997Z-error: null
+2023-07-16T14:58:44.601Z-error: Internal Server error
+2023-07-16T14:58:44.617Z-error: Internal Server Error
+2023-07-16T14:58:44.621Z-error: null
+2023-07-16T15:00:07.524Z-error: Internal Server error
+2023-07-16T15:00:07.538Z-error: Internal Server Error
+2023-07-16T15:00:07.542Z-error: null
+2023-07-16T15:08:19.662Z-error: Internal Server error
+2023-07-16T15:08:19.684Z-error: Internal Server Error
+2023-07-16T15:08:19.687Z-error: null
+2023-07-16T15:10:25.167Z-error: Internal Server error
+2023-07-16T15:10:25.183Z-error: Internal Server Error
+2023-07-16T15:10:25.187Z-error: null
+2023-07-16T15:10:25.202Z-error: Internal server error
+2023-07-16T23:10:12.462Z-error: Failed deleting doctor in repository
+2023-07-16T23:13:08.431Z-error: Failed deleting doctor in repository
+2023-07-16T23:15:44.122Z-error: Failed deleting doctor in repository
+2023-07-16T23:17:35.999Z-error: Failed deleting doctor in repository
+2023-07-16T23:20:14.005Z-error: Failed deleting doctor in repository
+2023-07-18T01:57:02.949Z-error: (...args) => defaultLogger[method](...args)
+2023-07-18T01:58:07.881Z-error: Failed to update Patient
+2023-07-18T02:02:07.722Z-error: Record has not found yet
+2023-07-19T02:35:03.462Z-error: Record has not found yet
+2023-07-19T02:37:28.079Z-error: Record has not found yet
+2023-07-19T02:47:30.612Z-error: Record has not found yet
+2023-07-19T02:50:28.818Z-error: Record has not found yet
+2023-07-19T02:52:03.253Z-error: Record has not found yet
+2023-07-20T17:02:24.555Z-error: Record has not found yet
+2023-07-20T20:12:22.782Z-error: Record has not found yet
+2023-07-20T20:13:20.986Z-error: Record has not found yet
+2023-07-20T20:13:20.989Z-error: Failed to update Doctor
+2023-07-20T20:17:04.466Z-error: Failed to update Doctor
+2023-07-20T20:18:20.592Z-error: Failed to update Doctor
+2023-07-20T20:25:49.477Z-error: Failed to update Doctor
+2023-07-20T20:26:08.637Z-error: Failed to delete Doctor
+2023-07-20T20:27:20.347Z-error: Failed to update Doctor
+2023-07-20T20:31:16.425Z-error: Failed to update Doctor
+2023-07-20T20:32:56.302Z-error: Failed to update Doctor
+2023-07-20T20:37:30.751Z-error: Failed to update Doctor
+2023-07-20T20:39:20.108Z-error: Failed to update Doctor
+2023-07-20T20:39:20.138Z-error: Internal server error
+2023-07-20T21:48:22.550Z-error: Failed to update Doctor
+2023-07-20T21:48:22.590Z-error: Internal server error
+2023-07-20T21:48:22.565Z-error: Record has not found yet
+2023-07-20T21:49:22.683Z-error: Failed to update Doctor
+2023-07-20T21:49:22.724Z-error: Internal server error
+2023-07-20T21:49:23.136Z-error: Record has not found yet
+2023-07-20T21:53:55.695Z-error: Failed to update Doctor
+2023-07-20T21:53:55.721Z-error: Internal server error
+2023-07-20T21:53:56.190Z-error: Record has not found yet
+2023-07-20T21:57:49.716Z-error: Failed to update Doctor
+2023-07-20T21:57:49.742Z-error: Internal server error
+2023-07-20T21:57:49.691Z-error: Record has not found yet
+2023-07-20T22:01:56.990Z-error: Record has not found yet
+2023-07-20T22:01:57.111Z-error: Failed to update Doctor
+2023-07-20T22:01:57.136Z-error: Internal server error
+2023-07-20T22:07:22.676Z-error: Failed to update Doctor
+2023-07-20T22:07:22.717Z-error: Internal server error
+2023-07-20T22:07:23.140Z-error: Record has not found yet
+2023-07-20T22:08:38.969Z-error: Failed to update Doctor
+2023-07-20T22:08:38.999Z-error: Internal server error
+2023-07-20T22:09:07.081Z-error: Record has not found yet
+2023-07-20T22:09:07.166Z-error: Failed to update Doctor
+2023-07-20T22:09:07.195Z-error: Internal server error
+2023-07-20T22:17:29.772Z-error: Failed to update Doctor
+2023-07-20T22:17:29.807Z-error: Internal server error
+2023-07-20T22:19:39.897Z-error: Failed to update Doctor
+2023-07-20T22:19:39.933Z-error: Internal server error
+2023-07-20T22:20:58.574Z-error: Failed to update Doctor
+2023-07-20T22:20:58.606Z-error: Internal server error
+2023-07-20T22:42:38.266Z-error: Failed to update Doctor
+2023-07-20T22:42:38.293Z-error: Internal server error
+2023-07-20T22:50:01.060Z-error: Failed to update Doctor
+2023-07-20T22:50:01.086Z-error: Internal server error
+2023-07-20T22:50:24.447Z-error: Failed to update Doctor
+2023-07-20T22:50:24.480Z-error: Internal server error
+2023-07-20T22:50:24.844Z-error: Record has not found yet
+2023-07-20T22:51:40.969Z-error: Failed to update Doctor
+2023-07-20T22:51:41.002Z-error: Internal server error
+2023-07-20T22:52:52.805Z-error: Failed to update Doctor
+2023-07-20T22:52:52.840Z-error: Internal server error
+2023-07-20T22:52:53.300Z-error: Record has not found yet
+2023-07-20T22:53:40.795Z-error: Failed to update Doctor
+2023-07-20T22:53:40.827Z-error: Internal server error
+2023-07-20T22:53:41.248Z-error: Record has not found yet
+2023-07-20T22:58:45.447Z-error: Failed to update Doctor
+2023-07-20T22:58:45.473Z-error: Internal server error
+2023-07-20T23:04:15.513Z-error: Failed to update Doctor
+2023-07-20T23:04:15.539Z-error: Internal server error
+2023-07-20T23:04:15.964Z-error: Record has not found yet
+2023-07-20T23:09:48.265Z-error: Failed to update Doctor
+2023-07-20T23:09:48.298Z-error: Internal server error
+2023-07-20T23:12:31.470Z-error: Failed to update Doctor
+2023-07-20T23:12:31.498Z-error: Internal server error
+2023-07-20T23:13:46.735Z-error: Failed to update Doctor
+2023-07-20T23:13:46.761Z-error: Internal server error
+2023-07-20T23:13:47.099Z-error: Record has not found yet
+2023-07-20T23:14:20.663Z-error: Failed to update Doctor
+2023-07-20T23:14:20.701Z-error: Internal server error
+2023-07-20T23:14:21.071Z-error: Failed to update Doctor
+2023-07-20T23:15:17.172Z-error: Failed to update Doctor
+2023-07-20T23:15:17.219Z-error: Internal server error
+2023-07-20T23:19:06.245Z-error: Failed to update Doctor
+2023-07-20T23:19:06.272Z-error: Internal server error
+2023-07-20T23:19:06.687Z-error: Record has not found yet
+2023-07-20T23:33:01.460Z-error: Failed to update Doctor
+2023-07-20T23:33:01.497Z-error: Internal server error
+2023-07-20T23:33:01.905Z-error: Record has not found yet
+2023-07-20T23:33:48.851Z-error: Failed to update Doctor
+2023-07-20T23:33:48.879Z-error: Internal server error
+2023-07-20T23:33:49.269Z-error: Record has not found yet
+2023-07-20T23:58:33.783Z-error: Failed to update Doctor
+2023-07-20T23:58:33.816Z-error: Internal server error
+2023-07-20T23:58:34.182Z-error: Record has not found yet
+2023-07-21T00:16:50.819Z-error: Failed to update Doctor
+2023-07-21T00:16:50.856Z-error: Internal server error
+2023-07-21T00:16:50.839Z-error: Record has not found yet
+2023-07-21T00:16:51.449Z-error: Internal Server error
+2023-07-21T00:18:20.487Z-error: Internal Server error
+2023-07-21T00:18:20.554Z-error: Failed to update Doctor
+2023-07-21T00:18:20.587Z-error: Internal server error
+2023-07-21T00:18:20.603Z-error: Record has not found yet
+2023-07-21T00:20:50.351Z-error: Failed to update Doctor
+2023-07-21T00:20:50.385Z-error: Internal server error
+2023-07-21T00:20:50.418Z-error: Record has not found yet
+2023-07-21T00:21:38.551Z-error: Failed to update Doctor
+2023-07-21T00:21:38.606Z-error: Internal server error
+2023-07-21T00:21:38.637Z-error: Record has not found yet
+2023-07-21T00:22:25.825Z-error: Failed to update Doctor
+2023-07-21T00:22:25.862Z-error: Internal server error
+2023-07-21T00:22:25.957Z-error: Record has not found yet
+2023-07-21T00:22:26.278Z-error: Error getting all appoinments
+2023-07-21T00:22:56.703Z-error: Failed to update Doctor
+2023-07-21T00:22:56.741Z-error: Internal server error
+2023-07-21T00:22:56.717Z-error: Record has not found yet
+2023-07-21T00:22:57.333Z-error: Error getting all appoinments
+2023-07-21T00:25:27.884Z-error: Failed to update Doctor
+2023-07-21T00:25:27.916Z-error: Internal server error
+2023-07-21T00:25:27.927Z-error: Record has not found yet
+2023-07-21T00:25:28.328Z-error: Error getting all appoinments
+2023-07-21T00:26:32.013Z-error: Record has not found yet
+2023-07-21T00:26:32.009Z-error: Failed to update Doctor
+2023-07-21T00:26:32.042Z-error: Internal server error
+2023-07-21T00:26:32.015Z-error: Error getting all appoinments
+2023-07-21T00:27:15.662Z-error: Record has not found yet
+2023-07-21T00:27:15.701Z-error: Failed to update Doctor
+2023-07-21T00:27:15.731Z-error: Internal server error
+2023-07-21T00:27:16.146Z-error: Error getting all appoinments
+2023-07-21T00:31:34.279Z-error: Failed to update Doctor
+2023-07-21T00:31:34.312Z-error: Internal server error
+2023-07-21T00:31:34.351Z-error: Record has not found yet
+2023-07-21T00:31:34.656Z-error: Error getting all appoinments
+2023-07-21T00:33:51.526Z-error: Record has not found yet
+2023-07-21T00:33:51.593Z-error: Failed to update Doctor
+2023-07-21T00:33:51.633Z-error: Internal server error
+2023-07-21T00:33:52.011Z-error: Error getting all appoinments
+2023-07-21T00:36:11.591Z-error: Record has not found yet
+2023-07-21T00:36:11.624Z-error: Failed to update Doctor
+2023-07-21T00:36:11.668Z-error: Internal server error
+2023-07-21T00:36:12.106Z-error: Error getting all appoinments
+2023-07-21T00:40:45.008Z-error: Record has not found yet
+2023-07-21T00:40:45.065Z-error: Failed to update Doctor
+2023-07-21T00:40:45.093Z-error: Internal server error
+2023-07-21T00:40:45.356Z-error: Error getting all appoinments
+2023-07-21T00:41:19.487Z-error: Failed to update Doctor
+2023-07-21T00:41:19.517Z-error: Internal server error
+2023-07-21T00:41:19.496Z-error: Record has not found yet
+2023-07-21T00:41:19.863Z-error: Error getting all appoinments
+2023-07-21T00:43:04.998Z-error: Failed to update Doctor
+2023-07-21T00:43:05.035Z-error: Internal server error
+2023-07-21T00:43:05.128Z-error: Record has not found yet
+2023-07-21T00:43:05.543Z-error: Error getting all appoinments
+2023-07-21T00:45:31.787Z-error: Failed to update Doctor
+2023-07-21T00:45:31.824Z-error: Internal server error
+2023-07-21T00:45:31.924Z-error: Record has not found yet
+2023-07-21T00:45:32.386Z-error: Error getting all appoinments
+2023-07-21T00:46:28.000Z-error: Failed to update Doctor
+2023-07-21T00:46:28.037Z-error: Internal server error
+2023-07-21T00:46:28.087Z-error: Record has not found yet
+2023-07-21T00:46:28.641Z-error: Error getting all appoinments
+2023-07-21T01:06:41.992Z-error: Failed to update Doctor
+2023-07-21T01:06:42.043Z-error: Internal server error
+2023-07-21T01:06:42.606Z-error: Record has not found yet
+2023-07-21T01:06:42.689Z-error: Error getting all appoinments
+2023-07-21T01:08:17.093Z-error: Failed to update Doctor
+2023-07-21T01:08:17.130Z-error: Internal server error
+2023-07-21T01:08:17.076Z-error: Error getting all appoinments
+2023-07-21T01:08:17.250Z-error: Record has not found yet
+2023-07-21T01:15:23.604Z-error: Error getting all appoinments
+2023-07-21T01:15:23.723Z-error: Record has not found yet
+2023-07-21T01:15:23.759Z-error: Failed to update Doctor
+2023-07-21T01:15:23.803Z-error: Internal server error
+2023-07-21T01:19:41.768Z-error: Record has not found yet
+2023-07-21T01:19:41.848Z-error: Error getting all appoinments
+2023-07-21T01:19:41.929Z-error: Failed to update Doctor
+2023-07-21T01:19:41.966Z-error: Internal server error
+2023-07-21T01:20:55.277Z-error: Failed to update Doctor
+2023-07-21T01:20:55.321Z-error: Internal server error
+2023-07-21T01:20:56.142Z-error: Error getting all appoinments
+2023-07-21T01:20:57.058Z-error: Record has not found yet
+2023-07-21T01:23:02.227Z-error: Failed to update Doctor
+2023-07-21T01:23:02.259Z-error: Internal server error
+2023-07-21T01:23:02.324Z-error: Record has not found yet
+2023-07-21T01:24:58.034Z-error: Failed to update Doctor
+2023-07-21T01:24:58.069Z-error: Internal server error
+2023-07-21T01:24:58.195Z-error: Record has not found yet
+2023-07-21T01:24:58.801Z-error: Error getting all appoinments
+2023-07-21T01:26:38.749Z-error: Failed to update Doctor
+2023-07-21T01:26:38.785Z-error: Internal server error
+2023-07-21T01:26:38.994Z-error: Record has not found yet
+2023-07-21T01:26:39.537Z-error: Error getting all appoinments
+2023-07-21T01:27:22.775Z-error: Record has not found yet
+2023-07-21T01:27:22.795Z-error: Failed to update Doctor
+2023-07-21T01:27:22.831Z-error: Internal server error
+2023-07-21T01:27:22.803Z-error: Error getting all appoinments
+2023-07-21T01:28:19.031Z-error: Error getting all appoinments
+2023-07-21T01:28:19.061Z-error: Failed to update Doctor
+2023-07-21T01:28:19.101Z-error: Internal server error
+2023-07-21T01:28:19.083Z-error: Record has not found yet
+2023-07-21T01:33:03.931Z-error: Error getting all appoinments
+2023-07-21T01:33:04.181Z-error: Record has not found yet
+2023-07-21T01:33:04.337Z-error: Failed to update Doctor
+2023-07-21T01:33:04.368Z-error: Internal server error
+2023-07-21T01:33:05.583Z-error: Record has not found yet
+2023-07-21T01:33:05.610Z-error: Record has not found yet
+2023-07-21T01:35:05.462Z-error: Failed to update Doctor
+2023-07-21T01:35:05.502Z-error: Internal server error
+2023-07-21T01:35:05.531Z-error: Record has not found yet
+2023-07-21T01:35:05.658Z-error: Error getting all appoinments
+2023-07-21T01:35:07.033Z-error: Record has not found yet
+2023-07-21T01:37:18.383Z-error: Record has not found yet
+2023-07-21T01:37:18.401Z-error: Error getting all appoinments
+2023-07-21T01:37:18.456Z-error: Failed to update Doctor
+2023-07-21T01:37:18.491Z-error: Internal server error
+2023-07-21T01:37:19.683Z-error: Record has not found yet
+2023-07-21T01:37:19.718Z-error: Record has not found yet
+2023-07-21T01:40:49.913Z-error: Error getting all appoinments
+2023-07-21T01:40:49.951Z-error: Record has not found yet
+2023-07-21T01:40:50.110Z-error: Failed to update Doctor
+2023-07-21T01:40:50.141Z-error: Internal server error
+2023-07-21T01:40:51.234Z-error: Record has not found yet
+2023-07-21T01:40:51.264Z-error: Record has not found yet
+2023-07-21T01:43:25.462Z-error: Failed to update Doctor
+2023-07-21T01:43:25.501Z-error: Internal server error
+2023-07-21T01:43:25.542Z-error: Record has not found yet
+2023-07-21T01:43:25.542Z-error: Error getting all appoinments
+2023-07-21T01:43:26.813Z-error: Record has not found yet
+2023-07-21T01:43:26.849Z-error: Record has not found yet
